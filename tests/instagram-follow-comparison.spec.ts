@@ -5,7 +5,7 @@ import { writeFollowReport } from '../utils/writeFollowReport';
 
 const username = process.env.IG_USERNAME;
 const password = process.env.IG_PASSWORD;
-const profile = process.env.IG_PROFILE ?? 'paolomondelo';
+const profile = process.env.IG_PROFILE ?? 'your-email';
 
 test.describe('Instagram follow comparison', () => {
   test.beforeEach(() => {
