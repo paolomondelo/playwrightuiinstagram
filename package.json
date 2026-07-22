@@ -1,0 +1,23 @@
+{
+  "name": "playwrightuiinstagram",
+  "version": "1.0.0",
+  "description": "Playwright UI automation for Instagram follow comparison",
+  "scripts": {
+    "test": "playwright test tests/instagram-follow-comparison.spec.ts",
+    "test:headed": "playwright test tests/instagram-follow-comparison.spec.ts --headed",
+    "test:unfollow": "playwright test tests/instagram-unfollow.spec.ts --headed",
+    "test:unit": "playwright test tests/compare-follow-lists.spec.ts",
+    "test:all": "playwright test",
+    "test:ui": "playwright test tests/instagram-follow-comparison.spec.ts --ui",
+    "test:debug": "playwright test tests/instagram-follow-comparison.spec.ts --debug",
+    "report": "playwright show-report",
+    "open:follow-report": "start reports/follow-comparison-latest.html",
+    "open:unfollow-report": "start reports/unfollow-results-latest.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}
