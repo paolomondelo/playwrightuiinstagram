@@ -5,7 +5,7 @@ import * as fs from 'fs';
 
 test('compareFollowLists finds who does not follow back', async () => {
   const comparison = compareFollowLists(
-    'paolomondelo',
+    'your-email',
     ['alice', 'bob', 'carol'],
     ['bob', 'dave', 'erin'],
     { profileFollowersCount: 3, profileFollowingCount: 3 },
