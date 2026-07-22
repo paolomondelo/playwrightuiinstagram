@@ -5,7 +5,7 @@ import { writeUnfollowReport, UnfollowResult } from '../utils/writeUnfollowRepor
 
 const username = process.env.IG_USERNAME;
 const password = process.env.IG_PASSWORD;
-const profile = process.env.IG_PROFILE ?? 'paolomondelo';
+const profile = process.env.IG_PROFILE ?? 'your-email';
 
 /** Pause between unfollows to reduce Instagram action-block risk. */
 const DELAY_BETWEEN_MS = Number(process.env.IG_UNFOLLOW_DELAY_MS ?? 2_500);
