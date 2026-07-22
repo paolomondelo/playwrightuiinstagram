@@ -12,9 +12,9 @@ npx playwright install chromium
 Credentials live in `.env` (gitignored):
 
 ```
-IG_USERNAME=paolomondelo@yahoo.com
+IG_USERNAME=dummyemail@yahoo.com
 IG_PASSWORD=your-password
-IG_PROFILE=paolomondelo
+IG_PROFILE=dummyemail
 ```
 
 ## Run
